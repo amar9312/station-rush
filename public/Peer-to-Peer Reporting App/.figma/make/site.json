@@ -1,0 +1,10 @@
+{
+  "description": "Empowering commuters to report delays and overcrowding at DMRC stations, enhancing travel experiences through real-time peer feedback.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

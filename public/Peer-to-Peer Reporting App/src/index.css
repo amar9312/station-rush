@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  --bg: #F5F7FA;
+  --card: #FFFFFF;
+  --border: #D1DCF0;
+  --fg: #0D1B3E;
+  --muted: #6B7A99;
+  --blue: #1D6FF2;
+  --blue-light: #EBF2FF;
+  --blue-dark: #1558C8;
+  --status-green: #16A34A;
+  --status-green-bg: #DCFCE7;
+  --status-amber: #D97706;
+  --status-amber-bg: #FEF3C7;
+  --status-red: #DC2626;
+  --status-red-bg: #FEE2E2;
+
+  --line-yellow: #F5C518;
+  --line-blue: #2979FF;
+  --line-red: #E53935;
+  --line-pink: #EC407A;
+  --line-green: #43A047;
+  --line-violet: #7E57C2;
+  --line-orange: #FB8C00;
+  --line-aqua: #00ACC1;
+  --line-magenta: #D81B60;
+
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar { width: 0; height: 0; }
+* { scrollbar-width: none; }
