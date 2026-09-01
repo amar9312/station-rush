@@ -1,0 +1,636 @@
+{
+    "lines": [
+        {
+            "name": "Yellow Line",
+            "slug": "yellow-line",
+            "color_code": "#F5C518",
+            "text_color": "#1A1000",
+            "sorting_order": 1
+        },
+        {
+            "name": "Blue Line",
+            "slug": "blue-line",
+            "color_code": "#2979FF",
+            "text_color": "#FFFFFF",
+            "sorting_order": 2
+        },
+        {
+            "name": "Red Line",
+            "slug": "red-line",
+            "color_code": "#E53935",
+            "text_color": "#FFFFFF",
+            "sorting_order": 3
+        },
+        {
+            "name": "Pink Line",
+            "slug": "pink-line",
+            "color_code": "#EC407A",
+            "text_color": "#FFFFFF",
+            "sorting_order": 4
+        },
+        {
+            "name": "Green Line",
+            "slug": "green-line",
+            "color_code": "#43A047",
+            "text_color": "#FFFFFF",
+            "sorting_order": 5
+        },
+        {
+            "name": "Violet Line",
+            "slug": "violet-line",
+            "color_code": "#7E57C2",
+            "text_color": "#FFFFFF",
+            "sorting_order": 6
+        },
+        {
+            "name": "Airport Express",
+            "slug": "airport-express",
+            "color_code": "#FB8C00",
+            "text_color": "#FFFFFF",
+            "sorting_order": 7
+        },
+        {
+            "name": "Magenta Line",
+            "slug": "magenta-line",
+            "color_code": "#D81B60",
+            "text_color": "#FFFFFF",
+            "sorting_order": 8
+        },
+        {
+            "name": "Aqua Line",
+            "slug": "aqua-line",
+            "color_code": "#00ACC1",
+            "text_color": "#FFFFFF",
+            "sorting_order": 9
+        }
+    ],
+    "stations": [
+        {
+            "name": "Rajiv Chowk",
+            "slug": "rajiv-chowk",
+            "code": "RCK",
+            "former_name": null,
+            "latitude": 28.6328,
+            "longitude": 77.2196,
+            "is_interchange": true,
+            "sorting_order": 1
+        },
+        {
+            "name": "Kashmere Gate",
+            "slug": "kashmere-gate",
+            "code": "KG",
+            "former_name": null,
+            "latitude": 28.6675,
+            "longitude": 77.228,
+            "is_interchange": true,
+            "sorting_order": 2
+        },
+        {
+            "name": "Hauz Khas",
+            "slug": "hauz-khas",
+            "code": "HKS",
+            "former_name": null,
+            "latitude": 28.5434438,
+            "longitude": 77.2063442,
+            "is_interchange": true,
+            "sorting_order": 3
+        },
+        {
+            "name": "Mandi House",
+            "slug": "mandi-house",
+            "code": "MDHS",
+            "former_name": null,
+            "latitude": 28.6258,
+            "longitude": 77.2347,
+            "is_interchange": true,
+            "sorting_order": 4
+        },
+        {
+            "name": "Central Secretariat",
+            "slug": "central-secretariat",
+            "code": "CTST",
+            "former_name": null,
+            "latitude": 28.6149,
+            "longitude": 77.2119,
+            "is_interchange": true,
+            "sorting_order": 5
+        },
+        {
+            "name": "New Delhi",
+            "slug": "new-delhi",
+            "code": "NDLS",
+            "former_name": null,
+            "latitude": 28.6431,
+            "longitude": 77.2214,
+            "is_interchange": true,
+            "sorting_order": 6
+        },
+        {
+            "name": "Botanical Garden",
+            "slug": "botanical-garden",
+            "code": "BTGN",
+            "former_name": null,
+            "latitude": 28.5644,
+            "longitude": 77.3342,
+            "is_interchange": true,
+            "sorting_order": 7
+        },
+        {
+            "name": "Chandni Chowk",
+            "slug": "chandni-chowk",
+            "code": "CHWK",
+            "former_name": null,
+            "latitude": 28.6583,
+            "longitude": 77.2301,
+            "is_interchange": false,
+            "sorting_order": 8
+        },
+        {
+            "name": "Samaypur Badli",
+            "slug": "samaypur-badli",
+            "code": "SPBI",
+            "former_name": null,
+            "latitude": 28.7446,
+            "longitude": 77.1383,
+            "is_interchange": false,
+            "sorting_order": 20
+        },
+        {
+            "name": "Millennium City Centre Gurugram",
+            "slug": "millennium-city-centre-gurugram",
+            "code": "HCC",
+            "former_name": "HUDA City Centre",
+            "latitude": 28.4594,
+            "longitude": 77.0725,
+            "is_interchange": false,
+            "sorting_order": 21
+        },
+        {
+            "name": "Dwarka Sector 21",
+            "slug": "dwarka-sector-21",
+            "code": "DW21",
+            "former_name": null,
+            "latitude": 28.5524,
+            "longitude": 77.0582,
+            "is_interchange": true,
+            "sorting_order": 22
+        },
+        {
+            "name": "Noida Electronic City",
+            "slug": "noida-electronic-city",
+            "code": "NECL",
+            "former_name": null,
+            "latitude": 28.6274,
+            "longitude": 77.3749,
+            "is_interchange": false,
+            "sorting_order": 23
+        },
+        {
+            "name": "Rithala",
+            "slug": "rithala",
+            "code": "RI",
+            "former_name": null,
+            "latitude": 28.7208,
+            "longitude": 77.1071,
+            "is_interchange": false,
+            "sorting_order": 24
+        },
+        {
+            "name": "Shaheed Sthal",
+            "slug": "shaheed-sthal",
+            "code": "SSTL",
+            "former_name": "New Bus Adda",
+            "latitude": 28.6704,
+            "longitude": 77.4394,
+            "is_interchange": false,
+            "sorting_order": 25
+        },
+        {
+            "name": "Majlis Park",
+            "slug": "majlis-park",
+            "code": "MJPK",
+            "former_name": null,
+            "latitude": 28.7242,
+            "longitude": 77.1819,
+            "is_interchange": true,
+            "sorting_order": 26
+        },
+        {
+            "name": "Shiv Vihar",
+            "slug": "shiv-vihar",
+            "code": "SVVR",
+            "former_name": null,
+            "latitude": 28.7016,
+            "longitude": 77.3019,
+            "is_interchange": false,
+            "sorting_order": 27
+        },
+        {
+            "name": "Inderlok",
+            "slug": "inderlok",
+            "code": "ILK",
+            "former_name": null,
+            "latitude": 28.6734,
+            "longitude": 77.17,
+            "is_interchange": true,
+            "sorting_order": 28
+        },
+        {
+            "name": "Brigadier Hoshiyar Singh",
+            "slug": "brigadier-hoshiyar-singh",
+            "code": "BHSG",
+            "former_name": null,
+            "latitude": 28.7285,
+            "longitude": 76.932,
+            "is_interchange": false,
+            "sorting_order": 29
+        },
+        {
+            "name": "Raja Nahar Singh",
+            "slug": "raja-nahar-singh",
+            "code": "RNST",
+            "former_name": "Ballabhgarh",
+            "latitude": 28.3389,
+            "longitude": 77.3164,
+            "is_interchange": false,
+            "sorting_order": 30
+        },
+        {
+            "name": "IGI Airport T3",
+            "slug": "igi-airport-t3",
+            "code": "IGIA",
+            "former_name": null,
+            "latitude": 28.5566,
+            "longitude": 77.087,
+            "is_interchange": false,
+            "sorting_order": 31
+        },
+        {
+            "name": "Janakpuri West",
+            "slug": "janakpuri-west",
+            "code": "JPW",
+            "former_name": null,
+            "latitude": 28.6292,
+            "longitude": 77.0783,
+            "is_interchange": true,
+            "sorting_order": 32
+        },
+        {
+            "name": "Noida Sector 51",
+            "slug": "noida-sector-51",
+            "code": "NS51",
+            "former_name": null,
+            "latitude": 28.5855,
+            "longitude": 77.375,
+            "is_interchange": true,
+            "sorting_order": 33
+        },
+        {
+            "name": "Depot",
+            "slug": "aqua-depot",
+            "code": "AQDP",
+            "former_name": null,
+            "latitude": 28.474,
+            "longitude": 77.503,
+            "is_interchange": false,
+            "sorting_order": 34
+        }
+    ],
+    "line_station": [
+        {
+            "line": "yellow-line",
+            "station": "samaypur-badli",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Millennium City Centre Gurugram",
+            "platform_b_towards": null
+        },
+        {
+            "line": "yellow-line",
+            "station": "kashmere-gate",
+            "sequence_order": 2,
+            "platform_a_number": 1,
+            "platform_b_number": 2,
+            "platform_a_towards": "Millennium City Centre Gurugram",
+            "platform_b_towards": "Samaypur Badli"
+        },
+        {
+            "line": "yellow-line",
+            "station": "chandni-chowk",
+            "sequence_order": 3,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Millennium City Centre Gurugram",
+            "platform_b_towards": "Samaypur Badli"
+        },
+        {
+            "line": "yellow-line",
+            "station": "new-delhi",
+            "sequence_order": 4,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Millennium City Centre Gurugram",
+            "platform_b_towards": "Samaypur Badli"
+        },
+        {
+            "line": "yellow-line",
+            "station": "rajiv-chowk",
+            "sequence_order": 5,
+            "platform_a_number": 1,
+            "platform_b_number": 2,
+            "platform_a_towards": "Millennium City Centre Gurugram",
+            "platform_b_towards": "Samaypur Badli"
+        },
+        {
+            "line": "yellow-line",
+            "station": "central-secretariat",
+            "sequence_order": 6,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Millennium City Centre Gurugram",
+            "platform_b_towards": "Samaypur Badli"
+        },
+        {
+            "line": "yellow-line",
+            "station": "hauz-khas",
+            "sequence_order": 7,
+            "platform_a_number": 1,
+            "platform_b_number": 2,
+            "platform_a_towards": "Millennium City Centre Gurugram",
+            "platform_b_towards": "Samaypur Badli"
+        },
+        {
+            "line": "yellow-line",
+            "station": "millennium-city-centre-gurugram",
+            "sequence_order": 8,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Samaypur Badli",
+            "platform_b_towards": null
+        },
+        {
+            "line": "blue-line",
+            "station": "dwarka-sector-21",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Noida Electronic City / Vaishali",
+            "platform_b_towards": null
+        },
+        {
+            "line": "blue-line",
+            "station": "rajiv-chowk",
+            "sequence_order": 2,
+            "platform_a_number": 3,
+            "platform_b_number": 4,
+            "platform_a_towards": "Noida Electronic City / Vaishali",
+            "platform_b_towards": "Dwarka Sector 21"
+        },
+        {
+            "line": "blue-line",
+            "station": "mandi-house",
+            "sequence_order": 3,
+            "platform_a_number": 1,
+            "platform_b_number": 2,
+            "platform_a_towards": "Noida Electronic City / Vaishali",
+            "platform_b_towards": "Dwarka Sector 21"
+        },
+        {
+            "line": "blue-line",
+            "station": "botanical-garden",
+            "sequence_order": 4,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Noida Electronic City",
+            "platform_b_towards": "Dwarka Sector 21"
+        },
+        {
+            "line": "blue-line",
+            "station": "noida-electronic-city",
+            "sequence_order": 5,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Dwarka Sector 21",
+            "platform_b_towards": null
+        },
+        {
+            "line": "red-line",
+            "station": "rithala",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Shaheed Sthal",
+            "platform_b_towards": null
+        },
+        {
+            "line": "red-line",
+            "station": "kashmere-gate",
+            "sequence_order": 2,
+            "platform_a_number": 3,
+            "platform_b_number": 4,
+            "platform_a_towards": "Rithala",
+            "platform_b_towards": "Shaheed Sthal"
+        },
+        {
+            "line": "red-line",
+            "station": "shaheed-sthal",
+            "sequence_order": 3,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Rithala",
+            "platform_b_towards": null
+        },
+        {
+            "line": "pink-line",
+            "station": "majlis-park",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Shiv Vihar",
+            "platform_b_towards": null
+        },
+        {
+            "line": "pink-line",
+            "station": "shiv-vihar",
+            "sequence_order": 2,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Majlis Park",
+            "platform_b_towards": null
+        },
+        {
+            "line": "green-line",
+            "station": "inderlok",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Brigadier Hoshiyar Singh",
+            "platform_b_towards": null
+        },
+        {
+            "line": "green-line",
+            "station": "brigadier-hoshiyar-singh",
+            "sequence_order": 2,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Inderlok",
+            "platform_b_towards": null
+        },
+        {
+            "line": "violet-line",
+            "station": "kashmere-gate",
+            "sequence_order": 1,
+            "platform_a_number": 5,
+            "platform_b_number": 6,
+            "platform_a_towards": "Raja Nahar Singh",
+            "platform_b_towards": "Terminating"
+        },
+        {
+            "line": "violet-line",
+            "station": "mandi-house",
+            "sequence_order": 2,
+            "platform_a_number": 3,
+            "platform_b_number": 4,
+            "platform_a_towards": "Raja Nahar Singh",
+            "platform_b_towards": "Kashmere Gate"
+        },
+        {
+            "line": "violet-line",
+            "station": "central-secretariat",
+            "sequence_order": 3,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Raja Nahar Singh",
+            "platform_b_towards": "Kashmere Gate"
+        },
+        {
+            "line": "violet-line",
+            "station": "raja-nahar-singh",
+            "sequence_order": 4,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Kashmere Gate",
+            "platform_b_towards": null
+        },
+        {
+            "line": "airport-express",
+            "station": "new-delhi",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "IGI Airport T3",
+            "platform_b_towards": null
+        },
+        {
+            "line": "airport-express",
+            "station": "igi-airport-t3",
+            "sequence_order": 2,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "New Delhi",
+            "platform_b_towards": null
+        },
+        {
+            "line": "magenta-line",
+            "station": "janakpuri-west",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Botanical Garden",
+            "platform_b_towards": null
+        },
+        {
+            "line": "magenta-line",
+            "station": "hauz-khas",
+            "sequence_order": 2,
+            "platform_a_number": 3,
+            "platform_b_number": 4,
+            "platform_a_towards": "Botanical Garden",
+            "platform_b_towards": "Janakpuri West"
+        },
+        {
+            "line": "magenta-line",
+            "station": "botanical-garden",
+            "sequence_order": 3,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Janakpuri West",
+            "platform_b_towards": null
+        },
+        {
+            "line": "aqua-line",
+            "station": "noida-sector-51",
+            "sequence_order": 1,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Depot",
+            "platform_b_towards": null
+        },
+        {
+            "line": "aqua-line",
+            "station": "aqua-depot",
+            "sequence_order": 2,
+            "platform_a_number": null,
+            "platform_b_number": null,
+            "platform_a_towards": "Noida Sector 51",
+            "platform_b_towards": null
+        }
+    ],
+    "network_alert": {
+        "line": "yellow-line",
+        "severity": "warning",
+        "message": "Yellow Line experiencing signal-related delays between Vishwavidyalaya and Kashmere Gate.",
+        "is_active": true
+    },
+    "demo_reports": [
+        {
+            "key": "demo-1",
+            "station": "rajiv-chowk",
+            "line": "yellow-line",
+            "category": "Crowd Surge",
+            "severity": "Severe",
+            "rush_level": "heavy",
+            "platform_direction": "platform_b",
+            "comment": "Platform 2 absolutely packed. Can't board the train. 3rd one passing without space.",
+            "upvotes_count": 9,
+            "minutes_ago": 4
+        },
+        {
+            "key": "demo-2",
+            "station": "rajiv-chowk",
+            "line": "yellow-line",
+            "category": "Train Delay",
+            "severity": "Moderate",
+            "rush_level": "normal",
+            "platform_direction": "platform_a",
+            "comment": "No Yellow Line train for 12 minutes now. Announcement says signal fault near Kashmere Gate.",
+            "upvotes_count": 6,
+            "minutes_ago": 8
+        },
+        {
+            "key": "demo-3",
+            "station": "rajiv-chowk",
+            "line": null,
+            "category": "Gate Closed",
+            "severity": "Minor",
+            "rush_level": "low",
+            "platform_direction": "both",
+            "comment": "Gate 7 exit closed. Staff redirecting to Gate 5. Adds 5 min walk.",
+            "upvotes_count": 4,
+            "minutes_ago": 15
+        },
+        {
+            "key": "demo-4",
+            "station": "rajiv-chowk",
+            "line": null,
+            "category": "Security",
+            "severity": "Moderate",
+            "rush_level": "normal",
+            "platform_direction": "both",
+            "comment": "Long queue at security — frisking line backed up to the stairs. Allow extra 10 mins.",
+            "upvotes_count": 3,
+            "minutes_ago": 22
+        }
+    ]
+}

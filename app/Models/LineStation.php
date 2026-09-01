@@ -11,6 +11,8 @@ class LineStation extends Pivot
 
     public $incrementing = true;
 
+    public $timestamps = false;
+
     protected $fillable = [
         'line_id',
         'station_id',
