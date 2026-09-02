@@ -17,6 +17,8 @@
 /public/hot
 /public/storage
 /Peer-to-Peer Reporting App/
+/frontend/node_modules
+/frontend/dist
 /storage/*.key
 /storage/pail
 /vendor

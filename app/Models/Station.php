@@ -40,7 +40,7 @@ class Station extends Model
                 'platform_a_towards',
                 'platform_b_towards',
             ])
-            ->orderByPivot('sequence_order');
+            ->orderBy('lines.sorting_order');
     }
 
     public function reports(): HasMany
